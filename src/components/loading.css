@@ -1,0 +1,87 @@
+body{
+    background-color: #0B192E; 
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+#logo{
+    width: 200px; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+#logo-frame{
+    animation-name: shake-frame; 
+    animation-duration: 6s;
+    animation-direction: alternate; 
+    animation-timing-function: cubic-bezier(0.58, 0.03, 0.58, 1);
+    animation-iteration-count: infinite; 
+    transform-origin: center; 
+}
+@keyframes shake-frame{
+    25%{
+        transform: rotateZ(10deg); 
+    }
+    50%{
+        transform: rotateZ(-6deg);
+    }
+    75%{
+        transform: rotateZ(15deg) rotateX(10deg); 
+    }
+    100%{
+        transform: rotateZ(-10deg); 
+    }
+}
+#Component_1_1{
+    animation-name: shake-L; 
+    animation-duration: 7s; 
+    animation-timing-function: cubic-bezier(0.36, 0.55, 0.57, 1); 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#Component_2_1{
+    animation-name: shake-D; 
+    animation-duration: 5s; 
+    animation-timing-function: cubic-bezier(0.36, 0.55, 0.57, 1);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.50s;
+}
+@keyframes shake-L{
+    0%{
+        transform: translate(797.288px, 378.904px); 
+    }
+    25%{
+        transform: translate(797.288px, 378.904px) rotateZ(10deg); 
+    }
+    50%{
+        transform: translate(797.288px, 378.904px) rotateZ(-2deg)
+    }
+    75%{
+        transform: translate(797.288px, 378.904px) rotateZ(15deg)
+    }
+    100%{
+        transform: translate(797.288px, 378.904px) rotateZ(11deg)
+    }
+}
+
+@keyframes shake-D{
+    0%{
+        transform: translate(894.863px, 440.713px); 
+    }
+    25%{
+        transform: translate(894.863px, 440.713px) rotateZ(-10deg); 
+    }
+    50%{
+        transform: translate(894.863px, 440.713px) rotateZ(2deg); 
+    }
+    75%{
+        transform: translate(894.863px, 440.713px) rotateZ(-15deg); 
+    }
+    100%{
+        transform: translate(894.863px, 440.713px) rotateZ(-11deg); 
+    }
+}
