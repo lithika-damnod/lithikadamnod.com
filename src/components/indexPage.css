@@ -18,4 +18,5 @@
 }
 .main-text img {
     padding: 20px; 
+    pointer-events: none; 
 }
