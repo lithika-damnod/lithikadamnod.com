@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="877" height="224" viewBox="0 0 877 224">
+  <g id="introText" transform="translate(-140 -188)">
+    <text id="_Hello_I_m_Lithika_Damnod_" data-name="“Hello, I’m Lithika Damnod”" transform="translate(186 318)" fill="#70aeb2" font-size="50" font-family="Fira Code" font-weight="700"><tspan x="0" y="0">“Hello, I’m Lithika Damnod”</tspan></text>
+    <text id="_std::endl_" data-name="&lt;&lt; std::endl; " transform="translate(610 400)" fill="#eee7d7" font-size="40" font-family="Fira Code"><tspan x="0" y="0">&lt;&lt;</tspan><tspan y="0" xml:space="preserve" fill="#ccd6f6"> std</tspan><tspan y="0" fill="#e3bbaa">::</tspan><tspan y="0" fill="#ccd6f6">endl</tspan><tspan y="0" fill="#e3bbaa">;</tspan><tspan y="0" fill="#ccd6f6"> </tspan></text>
+    <text id="std" transform="translate(140 225)" fill="#ccd6f6" font-size="40" font-family="Fira Code"><tspan x="0" y="0">std</tspan></text>
+    <text id="::" transform="translate(210 225)" fill="#e3bbaa" font-size="40" font-family="Fira Code"><tspan x="0" y="0">::</tspan></text>
+    <text id="cout" transform="translate(250 225)" fill="#ccd6f6" font-size="40" font-family="Fira Code"><tspan x="0" y="0">cout</tspan></text>
+    <text id="_" data-name="&lt;&lt; " transform="translate(367 225)" fill="#eee7d7" font-size="40" font-family="Fira Code"><tspan x="0" y="0">&lt;&lt; </tspan></text>
+  </g>
+</svg>
